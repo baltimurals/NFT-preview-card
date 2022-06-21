@@ -1,0 +1,115 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000 !important; 
+}
+
+.round {
+    border-radius: 10px !important;
+}
+
+#card-container {
+    margin-top: 100px;
+    height: 430px;
+    width: 252px;
+    font-family: "Outfit", sans-serif;
+    box-shadow: 10px 10px 27px -8px rgba(208, 55, 55, 0.89);
+    -webkit-box-shadow: 10px 10px 27px -8px rgba(165, 241, 170, 0.89);
+    -moz-box-shadow: 10px 10px 27px -8px rgba(20, 219, 237, 0.89);
+    background-color: #434e62;
+}
+
+#header-container {
+    border: none;
+}
+
+#header-img-container {
+    z-index: 9999;
+}
+
+#header-img {
+    width: 216px;
+    height: 216px;
+}
+
+#header-img:hover{
+    opacity: 0.4;
+}
+
+#header-hover-container {
+    border-radius: 15px !important;
+    width: 216px;
+    height: 216px;
+    top: 16px;
+    left: 16px;
+    background-color: #0deac5;
+    z-index: 1;
+}
+
+#body-container {
+    padding-top: 0.25;
+    font-weight: 300;
+    height: 30%;
+}
+
+#body-title  {
+    font-weight: 600;
+    color: yellow;
+}
+
+#body-title:hover{
+    color:rgb(255, 173, 8);
+    cursor: pointer;
+}
+
+#body-paragraph{
+    font-size: 13px;
+    margin-bottom: 0%;
+    color: white;
+}
+
+#body-icontext-container {
+    margin-top: 10px;
+    height: 30px;
+}
+
+#body-text1 {
+    font-size: 11px;
+    font-weight: 600;
+    color: #0deac5;
+}
+
+#body-text2 {
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+
+#footer-container {
+    border-top: 1px solid var(--Yellow);
+    height: 200px;
+}
+
+#footer-img{
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 24px;
+    height: 24px;
+}
+
+#footer-text {
+    font-size: 11px;
+    color: rgb(241, 241, 241);
+}
+
+#footer-strong {
+    color: yellow;
+}
+
+#footer-strong:hover {
+    color: orange;
+    cursor: pointer;
+}
