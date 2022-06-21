@@ -1,9 +1,11 @@
 # NFT-preview-card
 NFT preview card component
 
-Basic NFT Card Component using HTML, CSS, JavaScript, and Bootstrap
+Basic NFT Card Component using HTML, CSS, and Bootstrap
 
 I added some "fluff" such as the neon box shadow, a few bright colors, svgs, and images.
+
+Used Google Fonts - "Outfit" at font-weights 300, 400, and 600.
 
 Final Product: 
 
